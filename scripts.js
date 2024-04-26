@@ -1,5 +1,5 @@
 let botoes = document.querySelectorAll(".botoes button")
-botoes.forEach(botoes =>{
+botoes.forEach(botao =>{
     botao.addEventListener("click", guardarNota)
 })
 
